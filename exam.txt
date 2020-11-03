@@ -1,0 +1,78 @@
+########################################################
+#             OS-3224 Midterm Exam 2020                #
+#                                                      #
+# Do not distribute this file under any curcumstances. #
+########################################################
+
+#########################
+#
+# Name: Katrina Mae Paredes
+# netid: kmp636
+#
+#########################
+
+Exam Rules:
+- The exam must represent your work alone.  You may not misrepresent someone else's
+  work as yours.  You may not submit work of which you are not the sole author.
+- While working on the exam you may not communicate with any other student for any
+  reason.  This prohibition includes the use of electronic communication, such as
+  email, texting and phone.  As an exception to this rule, if you have questions
+  during the exam, you may ask the instructors or TAs. You may not discuss the
+  content of the exam with other students.
+- Do not copy or distribute the exam document or your answers at any time. After you
+  have finished and have pushed your exam to Github, delete the exam and your answers
+  from your computer.
+- If we suspect any academic dishonesty, the professor will make a Zoom appointment
+  with you right after the exam. You will need to support your answers. 
+
+
+######################################################################################
+Please fill in the pledge here:
+I, Katrina Mae Paredes, affirm that I have completed on my own, without consulting
+with other classmates. I have followed the required rules. I understand that violating
+these rules would represent academic dishonesty.
+
+
+######################################################################################
+
+Question 3:
+
+a)
+
+b)(6+14+24+26+30)/5 = 20
+
+c) (10+16+18+22+30)/5 = 19.2
+
+d)(2+6+12+20+30)/5 = 14
+
+######################################################################################
+
+Question 4:
+
+a) 6
+
+b) 1 local variable, %eax
+
+c) def mystery(n):
+        if n <= 1:
+            return n
+        else:
+            return n*mystery(n-1)
+
+d) factorial
+
+######################################################################################
+
+Question 5:
+
+a) 3 child processes. When the first fork() is executed, it creates 1 child, C1, from
+    the original process. When the second fork() is called, it creates 2 more child
+    processes, one from C1 and one from the original process.
+
+b) Yes because the parent process does not call wait() to prevent the creation of zombies
+
+######################################################################################
+
+Question 6:
+One way to make the ideas easier to understand is to go over more in class examples that 
+are similar or related to the homework.
